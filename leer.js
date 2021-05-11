@@ -1,5 +1,5 @@
 const XLSX = require('xlsx');
-const wb = XLSX.readFile('./EstructuraBancolombiaaa.xlsx');
+const wb = XLSX.readFile('./archivo-para-leer.xlsx');
 const ws = wb.Sheets[wb.SheetNames[0]];
 console.log(
     {
